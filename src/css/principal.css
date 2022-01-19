@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Spacetime';
+    src: url('../fonts/Spacetime.ttf');
+    font-weight:normal;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+}
+
+.titulo {
+    font-family: "Spacetime";
+    font-size: 50px;
+}
+
+.barra-menu {
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0px;
+    padding: 5px;
+    width: 100fr;
+    height: 80px;
+    background-color: black;
+}
+
+.pnl-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100fr;
+    height: 100vh;
+    background: rgb(13,0,36);
+    background: linear-gradient(0deg, rgba(13,0,36,1) 0%, rgba(118,0,144,1) 100%);
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-download {
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    border-color: black;
+    border-radius: 5px;
+}
+
+.btn-download:hover {
+    transition-duration: 0.5s;
+    background-color: lightgray;
+    cursor: pointer;
+}
